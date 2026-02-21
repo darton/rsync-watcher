@@ -9,4 +9,5 @@ ExecStart=%h/scripts/rsync-runner-pf.sh %f
 
 #for rsync all directory
 #ExecStart=%h/scripts/rsync-runner-pf.sh
-#OnUnitActiveSec=5s
+#OnUnitInactiveSec=2s
+#RemainAfterExit=yes
