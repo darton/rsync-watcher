@@ -3,7 +3,10 @@ Description=Rsync Runner Service
 
 [Service]
 Type=oneshot
-#sync per file 
+
+#for rsync per file 
 ExecStart=%h/scripts/rsync-runner-pf.sh %f
-#sync all directory
+
+#for rsync all directory
 #ExecStart=%h/scripts/rsync-runner-pf.sh
+#OnUnitActiveSec=5s
