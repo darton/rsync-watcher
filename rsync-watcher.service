@@ -3,4 +3,4 @@ Description=Rsync Runner Service
 
 [Service]
 Type=oneshot
-ExecStart=%h/scripts/rsync-runner.sh %f
+ExecStart=%h/scripts/rsync-runner-pf.sh %f
