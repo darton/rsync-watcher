@@ -1,0 +1,6 @@
+[Unit]
+Description=Rsync Runner Service
+
+[Service]
+Type=oneshot
+ExecStart=%h/scripts/upload_rsync.sh %f
