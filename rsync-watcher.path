@@ -4,7 +4,6 @@ Description=Monitorowanie katalogu upload
 [Path]
 PathChanged=%h/upload
 PathModified=%h/upload
-#PathExistsGlob=%h/upload/*
 
 [Install]
 WantedBy=default.target
